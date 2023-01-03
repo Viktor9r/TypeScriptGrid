@@ -14,6 +14,7 @@ export const StyledTopBar = styled('div')(() => ({
   gridColumn: '1/13',
   [`& .${topBarClasses.text}`]: {
     fontSize: '16px',
+    textTransform: 'uppercase',
   },
 }));
 

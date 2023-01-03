@@ -1,5 +1,6 @@
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
+import event from '../../../../test.json';
 
 import {
   StyledTopBar,
@@ -20,7 +21,7 @@ export const GridTopBar: React.FC<Props> = ({ setShowPanel }) => {
   return (
     <StyledTopBar>
       <div className={topBarClasses.text}>
-        ЮНІОРИ, ЮНІОРИ, Мужчины, -59
+        {event.group.title + ', ' + event.event.title}
       </div>
       <TopBarButton
         onClick={hidePanel}

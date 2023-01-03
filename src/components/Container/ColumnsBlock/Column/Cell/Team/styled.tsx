@@ -90,4 +90,5 @@ export const StyledTeamScore = styled('div')(() => ({
   bottom: '0',
   fontSize: '20px',
   lineHeight: '35px',
+  width: '30px',
 }))
