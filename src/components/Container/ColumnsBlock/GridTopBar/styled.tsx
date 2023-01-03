@@ -26,6 +26,7 @@ export const TopBarButton = styled(Button)(({ theme }) => ({
   backgroundImage: crossIcon,
   backgroundRepeat: 'no-repeat',
   backgroundSize: '50%',
+  backgroundPosition: 'center',
   [`&:hover`]: {
     cursor: 'pointer',
   },
