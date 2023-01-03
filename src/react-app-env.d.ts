@@ -82,8 +82,3 @@ type Pair = {
   "user1"?: Competitor | null | undefined,
   "user2"?: Competitor | null | undefined,
 };
-
-interface PairWithUser extends Pair {
-  "user1": Competitor | null,
-  "user2": Competitor | null,
-};

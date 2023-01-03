@@ -9,7 +9,6 @@ import {
   StyledTeamScore,
   scoreClasses,
 } from './styled';
-/* eslint-disable */
 
 type Props = {
   user: Competitor | null | undefined,
@@ -33,7 +32,7 @@ export const Team: React.FC<Props> = ({
     if (!cancelSelectUser && user) {
       setSelectedUserId(user.user.id);
     } else {
-      null;
+      return null;
     };
   };
 
@@ -41,7 +40,7 @@ export const Team: React.FC<Props> = ({
     if (!cancelSelectUser) {
       setSelectedUserId(-1);
     } else {
-      null;
+      return null;
     };
   };
 

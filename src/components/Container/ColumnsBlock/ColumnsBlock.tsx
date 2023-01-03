@@ -12,7 +12,6 @@ import {
   StyledColumn,
   StyledColumnRounds,
 } from './styled';
-/* eslint-disable */
 
 const stagesNames = [
   "All",

@@ -7,7 +7,6 @@ import {
 } from './styled';
 import { Team } from './Team/Team';
 import { Score } from './Score/Score';
-/* eslint-disable */
 
 type Props = {
   pair: Pair,

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { StyledPageContainer } from './styled';
 import { Header } from './Header/Header';
 import { ColumnsBlock } from './ColumnsBlock/ColumnsBlock';

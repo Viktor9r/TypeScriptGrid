@@ -2,7 +2,6 @@ import React from 'react';
 import ArrowBack from '@mui/icons-material/ArrowBack';
 import ArrowForward from '@mui/icons-material/ArrowForward';
 import { StyledButton, StyledButtonsBlock } from './styled';
-/* eslint-disable */
 
 type Props = {
   index: number,

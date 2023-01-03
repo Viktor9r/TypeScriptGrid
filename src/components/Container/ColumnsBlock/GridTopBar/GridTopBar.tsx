@@ -6,7 +6,7 @@ import {
   topBarClasses,
   TopBarButton,
 } from './styled';
-/* eslint-disable */
+
 
 type Props = {
   setShowPanel: React.Dispatch<React.SetStateAction<boolean>>

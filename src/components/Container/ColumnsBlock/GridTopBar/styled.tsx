@@ -1,7 +1,6 @@
 import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import crossIcon from '../../../../images/local_hospital.png';
-/* eslint-disable */
 
 const PREFIX = "gridTopBar"
 

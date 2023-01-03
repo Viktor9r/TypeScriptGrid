@@ -1,5 +1,4 @@
 import { styled } from '@mui/material/styles';
-/* eslint-disable */
 
 type NumberProps = {
   team: boolean,

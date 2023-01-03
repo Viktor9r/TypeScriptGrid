@@ -1,5 +1,4 @@
 import { styled } from '@mui/material/styles';
-/* eslint-disable */
 
 type TeamProps = {
   isWinner: boolean,

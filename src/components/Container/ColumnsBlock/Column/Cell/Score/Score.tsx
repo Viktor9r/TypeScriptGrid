@@ -6,7 +6,6 @@ import {
   StyledScoreNumber,
   StyledFlagEmpty,
 } from './styled';
-/* eslint-disable */
 
 type Props = {
   pair: Pair,

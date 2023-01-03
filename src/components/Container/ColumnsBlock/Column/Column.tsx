@@ -4,7 +4,6 @@ import {
   StyledCellsList,
 } from './styled';
 import { Cell } from './Cell/Cell';
-/* eslint-disable */
 
 type Props = {
   pairs: Pair[],

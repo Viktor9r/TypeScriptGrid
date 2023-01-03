@@ -1,6 +1,5 @@
 import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
-/* eslint-disable */
 
 export const StyledTopBar = styled('div')(() => ({
   display: 'flex',

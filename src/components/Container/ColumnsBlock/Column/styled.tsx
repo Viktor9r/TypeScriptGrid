@@ -1,6 +1,5 @@
 import { List } from '@mui/material';
 import { styled } from '@mui/material/styles';
-/* eslint-disable */
 
 export const StyledColumn = styled('div')(() => ({
   height: '100%',

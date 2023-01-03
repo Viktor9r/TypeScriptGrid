@@ -1,6 +1,5 @@
 import { styled } from '@mui/material/styles';
 import { Box, Tab } from '@mui/material';
-/* eslint-disable */
 
 export const StyledRoundSettersBlock = styled('div')(() => ({
   marginTop: '33px',

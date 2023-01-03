@@ -1,5 +1,4 @@
 import { styled } from '@mui/material/styles';
-/* eslint-disable */
 
 export const StyledCourt = styled('div')(() => ({
   marginBottom: '12px',
@@ -26,7 +25,7 @@ export const StyledCell = styled('div')(() => ({
     height: '65px',
     width: '4px',
     right: '0',
-    top: '33px',
+    top: '28px',
     transform: 'translateX(100%)',
     borderRight: '2px solid #fff',
     borderTopRightRadius: '8px',

@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ThemeProvider,
   StyledEngineProvider,
@@ -6,7 +5,6 @@ import {
 } from '@mui/material/styles';
 import { StyledPage } from './styled';
 import { Container } from './components/Container/Container';
-/* eslint-disable */
 
 const muiTheme = createTheme({
   palette: {

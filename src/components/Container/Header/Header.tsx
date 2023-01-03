@@ -1,7 +1,5 @@
-import React from 'react';
 import { headerClasses, StyledHeader } from './styled';
 import logo from '../../../images/ftlogo.png';
-/* eslint-disable */
 
 export const Header = () => {
   return (
